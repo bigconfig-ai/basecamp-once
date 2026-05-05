@@ -17,7 +17,7 @@ ONCE comes with a set of 37signals apps built-in, but you can use it to install 
 The simplest way to get started with ONCE is to use the install snippet to bootstrap the tool and choose an app to install:
 
 ```sh
-curl https://get.once.com | sh
+curl https://get-once.bigconfig.ai | sh
 ```
 
 This will download the appropriate binary for your platform, install it and its corresponding background service, and then launch it so you can do your first application install.
@@ -28,7 +28,7 @@ If the machine you're running this from doesn't already have Docker, it will ins
 If you want to install `once` without launching it (for example, for a scripted install), you can use `ONCE_INTERACTIVE=false`:
 
 ```sh
-curl https://get.once.com | ONCE_INTERACTIVE=false sh
+curl https://get-once.bigconfig.ai | ONCE_INTERACTIVE=false sh
 ```
 
 ### Installing manually
